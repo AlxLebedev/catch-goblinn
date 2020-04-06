@@ -33,7 +33,6 @@ export default class drawUi {
   }
 
   drawGameField() {
-    //const gameField = document.querySelector('.game-field');
     for (let i = 0; i < this.gameFieldSize; i += 1) {
       const newCell = `<div class='cell' id=cell${i}></div>`;
       this.gameField.insertAdjacentHTML('beforeend', newCell);
